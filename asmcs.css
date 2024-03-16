@@ -1,0 +1,56 @@
+.tong{
+    max-width: 100%;
+}
+
+.oto1 img{
+    width: 80%;
+}
+
+.banner-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: gray;
+}
+
+.btnbanner{
+    margin-right: 10px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: grey;
+    height: 30px;
+}
+
+.nutmenu{
+    margin: 0px 90px;
+    font-size: 20px
+}
+.nutmenu a{
+    text-decoration: none;
+    color: black;
+}
+
+.nutmenu a:hover{
+    text-decoration: underline;
+    color: antiquewhite;
+}
+
+.noidung{
+    width: 100%;
+    display: grid;
+    grid-gap:70px;
+    justify-content: center;
+    grid-template-columns: 450px 450px 450px;
+    grid-template-rows: 300px 300px 300px;
+}
+
+.oto1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
